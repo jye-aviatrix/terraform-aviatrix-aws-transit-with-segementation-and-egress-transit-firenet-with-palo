@@ -2,6 +2,9 @@
 ## Architecture
 
 ![architecture](architecture.png)
+- This repo deploys two Aviatrix Transits, one of them is dedicated egress transit FireNet with Palo.
+- To save cost, HA gateways are not deployed
+- Two spoke VPCs are in separate network domain, no connection policy configured.
 
 ## Palo Password
 ```
